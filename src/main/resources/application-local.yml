@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    hikari:
+      maximum-pool-size: 10
+  jpa:
+    open-in-view: false
+logging:
+  level:
+    com.cactro.events: INFO

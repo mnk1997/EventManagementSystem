@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    hikari:
+      maximum-pool-size: ${DB_POOL_SIZE:20}
+  lifecycle:
+    timeout-per-shutdown-phase: 30s
